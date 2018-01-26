@@ -1,0 +1,43 @@
+# Global
+safe:									true
+exclude:							[CNAME, LICENSE]
+include:							[_pages]
+timezone:							Europe/London
+
+# Dependencies
+markdown:							kramdown
+
+# Styling
+sass:
+  sass_dir:						_sass
+  style:							compressed
+
+# Compression
+compress_html:
+  comments:						all
+  clippings:					all
+
+# Permalinks
+permalink:						pretty
+
+# Setup
+title:                Coffee-Rodeo
+byline:								""
+  
+description:					""
+url:									coffee.rodeo
+baseurl:							/
+cdn:                  https://cdnjs.cloudflare.com/ajax/libs
+author:
+  name:								"Coffee.rodeo"
+  url:								https://github.com/coffee-rodeo
+
+# Custom variables
+version:							"0.1.0"
+launched:							"2018"
+fonts:								"Anonymous+Pro:400|Inconsolata:400|Roboto:400,700|Roboto+Mono:400|Fira+Mono:400|Space+Mono:400"
+
+# Extras
+analytics:
+  enable:							false
+  id:									"UA-53673057-11"
